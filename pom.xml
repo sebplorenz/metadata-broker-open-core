@@ -153,4 +153,12 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/sebplorenz/metadata-broker-open-core</url>
+        </repository>
+    </distributionManagement>
 </project>
